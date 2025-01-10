@@ -13,6 +13,9 @@
   }
 
   /* Share css */
+  .secondary-background{
+    background-color: #FFF8F3;
+  }
   .dark1{
     color: #181818;
   }
@@ -34,6 +37,18 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
+  }
+
+  .section-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color:#181818
+  }
+  .section-description{
+    font-size: 18px;
+    font-weight: regular;
+    color: #757575;
   }
   /* Nav */
 
@@ -93,3 +108,88 @@ header{
     width: 580px;
   }
 
+  /* About Section */
+  .about{
+    border-radius: 10px;
+    padding: 130px 156px;
+    text-align: center;
+    margin: 50px 0;
+  }
+  .about-items{
+    display: flex;
+    justify-content: space-between;
+  }
+  .item-desc{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .item-title{
+    font-size: 20px;
+  }
+  /* main */
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  /* Skill section */
+
+  .skills{
+   
+    padding: 130px 0px;
+    margin: 50px 0;
+  }
+  .skill-items{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    
+  }
+  .skill-item{
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  }
+  .skill-item img{
+    
+  }
+  .skill-item h3{
+    
+  }
+  .skill-item p{
+    
+  }
+
+  /* Resume section */
+
+  .resume-container{
+    display: flex;
+    gap: 24px;
+  }
+  .education-title,
+  .experience-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+  }
+  .experience-title,.degree-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+  }
+  .experience-subtitle,.degree-subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+  }
+  .experience-desc.degree-desc{
+    font-size: 16px;
+    color: #757575;
+  }
+
+  .resume-btn{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+            
