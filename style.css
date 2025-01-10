@@ -1,7 +1,10 @@
 
 
-
-
+/* Global*/
+*{
+  /* margin: 0; */
+  padding: 0;
+}
 
 .open-sans-primary {
     font-family: "Open Sans", serif;
@@ -192,4 +195,36 @@ header{
     margin-top: 20px;
   }
 
-            
+
+  /* Footer */
+
+  footer{
+    padding: 130px 230px;
+    display: flex;
+    margin-top: 113px;
+    gap: 100px;
+  }
+
+  /* here was a problem is i gave a class with width 50% its not works  */
+  #footer{
+  width: 50%;
+  }
+
+  footer input[type="text"],
+  footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    color: #757575;
+    margin-bottom: 24px;
+    border: none;
+  }
+  .footer-title-mr{
+    margin-bottom: 20px;
+  }
+  .footer_social{
+    margin-top: 20px;
+  }
